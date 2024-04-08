@@ -40,7 +40,7 @@ entry.pack()
 submit_button = tk.Button(root, text="Submit", command=on_submit)
 submit_button.pack()
 
-output_window = tk.Text(root, height=35, width=100, state=tk.DISABLED)
+output_window = tk.Text(root, height=30, width=100, state=tk.DISABLED, font=("Terminus",18))
 output_window.pack()
 
 root.mainloop()
